@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DigitalUp_Shipping>
+            <version>0.1.0</version>
+        </DigitalUp_Shipping>
+    </modules>
+    <global>
+        <models>
+            <digitalup_shipping>
+                <class>DigitalUp_Shipping_Model</class>
+            </digitalup_shipping>
+        </models>
+        <helpers>
+            <digitalup_shipping>
+                <class>DigitalUp_Shipping_Helper</class>
+            </digitalup_shipping>
+        </helpers>
+    </global>
+    <default>
+        <carriers>
+            <digitalup_shipping>
+                <active>1</active>
+                <sort_order>10</sort_order>
+                <model>digitalup_shipping/carrier</model>
+                <title>DigitalUp Shipping Carrier</title>
+                <sort_order>10</sort_order>
+                <sallowspecific>1</sallowspecific>
+            </digitalup_shipping>
+        </carriers>
+    </default>
+</config>
